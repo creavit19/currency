@@ -1,0 +1,68 @@
+#widget-currency{
+	width: 5.2em;
+	font-family: sans-serif;
+	font-size: 30px;
+	background-color: green;
+	border: 3px solid yellow;
+	color:  yellow;
+	margin: 1em;
+	padding: 0;
+}
+#widget-currency>div{
+	text-align: center;
+}
+#widget-currency>div:nth-child(1){
+	padding: .3em;
+	background-color: yellow;	
+	color: green;
+}
+#widget-currency>div:nth-child(2){
+	padding: .3em .3em .1em .3em;
+}
+#widget-currency>div:nth-child(3){
+	padding: .1em .3em .3em .3em;
+}
+
+.out{
+	font-family: Helvetica;
+	margin:0 auto;
+	border-radius:.3em;
+	overflow: hidden;
+	width:27em;
+}
+.out>div{
+	display: flex;
+	align-items: stretch;
+}
+.out>:nth-child(even){
+	background-color:#C4F0F0;
+}
+.out>:nth-child(odd){
+	background-color:#80EEDF;
+}
+.out div :nth-child(even){
+	background-color: rgba(181,14,61,.2);
+}
+.out span{
+	display: inline-block;
+}
+.out div :nth-child(1){
+	width:15em;
+	padding:.5em .5em .5em 1em;
+}
+.out div :nth-child(2){
+	width:6em;
+	padding:.5em;
+	text-align: center;
+}
+.out div :nth-child(3){
+	width:2em;
+	padding:.5em 1em .5em .5em;
+	text-align: center;
+}
+.out .header{
+	background:#00FFA9;
+}
+.out .header span{
+	text-align: center;
+}
